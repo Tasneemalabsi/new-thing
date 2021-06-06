@@ -6,7 +6,7 @@ var place = prompt("which of the two places assigned are you interested in: wadi
 while (place != "wadi-Rum night camp" && place != "arabian nights hotel")
 {place= prompt("you have to choose a place of the two mentioned places please");
 }
-if (place== "wadi-Rum night camp" || place== "arabian nights hotel")
+if (place == "wadi-Rum night camp" || place == "arabian nights hotel")
 {alert("you can visit the attached links");}
 
 
