@@ -1,18 +1,19 @@
-var firstname = "Tasneem";
-var lastname= " Al-Absi";
-var name= firstname + lastname
-console.log(name)
-document.write("<p> designed-by: </p>"+ name)
 
-alert("Welcome to Wadi-rum page")
+alert("Welcome to Wadi-rum page");
 
-if(confirm("are you interested in joining our trip?"))
-{alert("thank you,we will send you the info. soon")}
-else{alert("Welcome anyway")}
+var place = prompt("which of the two places assigned are you interested in:wadi-Rum night camp or arabian nights hotel  ?");
 
-if(prompt("are you from Amman?")== "yes"){
-alert("your trip is at 10 am")}
-else{alert("your trip is at 8 am")}
+while (place != "wadi-Rum night camp" && place != "arabian nights hotel")
+{place= prompt("you have to choose a place of the two mentioned places please");}
+
+var rate = prompt("can you rate our service from 1 to 5 please");
+
+for (var i = 1; i<=rate; i++){
+  document.write('<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png" width="50" height="50"/>')
+}
+
+
+
 
 
  
