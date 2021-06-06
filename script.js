@@ -4,7 +4,11 @@ alert("Welcome to Wadi-rum page");
 var place = prompt("which of the two places assigned are you interested in: wadi-Rum night camp or arabian nights hotel  ?");
 
 while (place != "wadi-Rum night camp" && place != "arabian nights hotel")
-{place= prompt("you have to choose a place of the two mentioned places please");}
+{place= prompt("you have to choose a place of the two mentioned places please");
+}
+if (place== "wadi-Rum night camp" || place== "arabian nights hotel")
+{alert("you can visit the attached links");}
+
 
 var rate = prompt("can you rate our service from 1 to 5 please");
 
